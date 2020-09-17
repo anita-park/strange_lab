@@ -1,0 +1,142 @@
+/* html, website background color set all to white */
+
+html {
+    background-color:white;
+}
+
+/* header, with padding, alignment and float to the center, aligning all items to the center. */
+
+header {
+    align-items: center;
+    padding: 20px;
+    float: center;
+}
+
+/* different h level tags that have been used, all set to the same setting for consistency. */
+
+h1 {
+    color: #5e5e66;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+    color: #5e5e66;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: #5e5e66;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+h4{
+    color: #5e5e66;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+/* p tags, same font family, color, alignment of text and itself.  */
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #5e5e66;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* menubar at the top of the website's css is here below. */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(245, 245, 245);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+  }
+  
+  li {
+    
+    font-family: 'Quicksand', sans-serif;
+    display: inline;
+    font-size:15px
+  }
+  
+  li a {
+    color: #5e5e66;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    float: none;
+    display: inline-block;
+    width:200px;
+    max-width: 80%;
+  }
+
+    li a.active {
+    background-color: rgb(250, 224, 255);
+}
+
+  
+  li a:hover {
+    background-color: rgb(224, 224, 224);
+  }
+
+
+
+.inputLabel {
+    color: #5e5e66;
+    font-family: 'Quicksand', sans-serif;
+    vertical-align: middle;
+}
+
+/* products page, displaying the products in a table format, and its style is here below */
+
+td{
+    float: left;
+    width: 150px;
+    height: 220px;
+    padding-left: 80px;  
+    padding-right: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Quicksand', sans-serif;
+    color: #5e5e66;
+
+}
+
+table {
+    float: center;  
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #5e5e66;
+}
+
+/* style for things related to getting input from the user on the website */
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #d5d5d8;
+    border: 10px;
+    padding: 10px;
+}
+
+img.animated-gif{
+    width: 240px;
+    height: auto;
+    max-width:100%;
+    justify-content: center;
+    margin: auto;
+  }
+
+div.tenor-gif-embed{
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
